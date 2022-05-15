@@ -7,13 +7,13 @@
         <title>CV</title>
     </head>
    <body>
-       <div class="container">
-           <div class="left_side">
+       <div class="container" vocab="https://schema.org/">
+           <div class="left_side" typeof="https://schema.org/Person">
             <div class="profiletext">
                 <div class="imgbox">
                   <img src="avatar.jpg" alt="avatar">
                 </div>
-                <h2>Fareeha Faisal<br><span>Web Designer</span></h2>
+                <h2 property="givenName">Fareeha Faisal<br><span property="jobTitle">Web Designer</span></h2>
                </div>
                
                <div class="contactInfo">
@@ -21,11 +21,11 @@
                    <ul>
                       <li>
                           <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                          <span class="text">+93 345 8622995</span>
+                          <span class="text" property="telephone">+93 345 8622995</span>
                        </li>
                        <li>
                           <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                          <span class="text">fareehafaisal95@gmail.com</span>
+                          <span class="text" property="email">fareehafaisal95@gmail.com</span>
                        </li>
                        <li>
                           <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
@@ -35,7 +35,7 @@
                           <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
                           <span class="text">www.linkedin.com</span>
                        </li>
-                       <li>
+                       <li property="address" typeof="https://schema.org/postalAddress">
                           <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
                           <span class="text">Sargodha, Punjab, Pakistan</span>
                        </li>
@@ -46,47 +46,47 @@
                <div class="contactInfo education">
                  <h3 class="title">Education</h3>
                    <ul>
-                      <li>
+                      <li property="alumniof" type="https://schema.org/Person">
                           <h5>2019 - 2023</h5>
                           <h4>Bachelors in Software Engineering</h4>
-                          <h4>Sargodha University</h4>
+                          <h4 property="name">Sargodha University</h4>
                        </li>
-                       <li>
+                       <li property="alumniof" typeof="https://schema.org/Person">
                           <h5>2017 - 2019</h5>
                           <h4>FSc Pre Engineering</h4>
-                          <h4>Punjab Group of Colleges</h4>
+                          <h4 property="name">Punjab Group of Colleges</h4>
                        </li>
-                       <li>
+                       <li property="alumniof" typeof="https://schema.org/Person">
                           <h5>2017 - 2015</h5>
                           <h4>Matriculation</h4>
-                          <h4>Sargodha University</h4>
+                          <h4 property="name">School</h4>
                        </li>
                    </ul>
                </div>
                
-               <div class="contactInfo language">
+               <div class="contactInfo language" typeof="https://schema.org/Person">
                  <h3 class="title">Languages</h3>
                    <ul>
                       <li>
-                          <span class="text">English</span>
+                          <span class="text" property="language">English</span>
                           <span class="percent">
                             <div style="width:90%;"></div>
                           </span>
                        </li>
                        <li>
-                          <span class="text">Urdu</span>
+                          <span class="text" property="language">Urdu</span>
                           <span class="percent">
                             <div style="width:90%;"></div>
                           </span>
                        </li>
                        <li>
-                          <span class="text">Chinese</span>
+                          <span class="text" property="language">Chinese</span>
                           <span class="percent">
                            <div style="width:50%;"></div>
                            </span>
                        </li>
                        <li>
-                          <span class="text">Korean</span>
+                          <span class="text" property="language">Korean</span>
                           <span class="percent">
                             <div style="width:40%;"></div>
                            </span>
@@ -105,10 +105,10 @@
                      <div class="box">
                         <div class="year_company">
                            <h5>2020 - Present</h5>
-                            <h5>Company Name</h5>
+                            <h5 property="companyName">Company Name</h5>
                          </div>
                          <div class="text">
-                            <h4>Senior UX Designer</h4>
+                            <h4 property="JobSkill">Senior UX Designer</h4>
                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi orci, pulvinar vel laoreet at, pharetra vel turpis.</p>
                          </div>
                      </div>
@@ -116,10 +116,10 @@
                      <div class="box">
                         <div class="year_company">
                            <h5>2019 - 2020</h5>
-                            <h5>Company Name</h5>
+                            <h5 property="companyName">Company Name</h5>
                          </div>
                          <div class="text">
-                            <h4>UI UX Designer</h4>
+                            <h4 property="JobSkill">UI UX Designer</h4>
                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi orci, pulvinar vel laoreet at, pharetra vel turpis.</p>
                          </div>
                      </div>
@@ -127,49 +127,49 @@
                      <div class="box">
                         <div class="year_company">
                            <h5>2018 - 2019</h5>
-                            <h5>Company Name</h5>
+                            <h5 property="companyName">Company Name</h5>
                          </div>
                          <div class="text">
-                            <h4>Junior Designer</h4>
+                            <h4 property="JobSkill">Junior Designer</h4>
                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi orci, pulvinar vel laoreet at, pharetra vel turpis.</p>
                          </div>
                      </div>
                </div>
                
                <div class="about skills">
-                   <h2 class="title2">Professional Skills</h2>
+                   <h2 class="title2" property="Skills">Professional Skills</h2>
                    <div class="box">
-                       <h4>HTML</h4>
+                       <h4 property="PLangauge">HTML</h4>
                         <div class="percent">
                           <div style="width: 95%;"></div>
                        </div>
                    </div>
                     <div class="box">
-                       <h4>CSS</h4>
+                       <h4 property="PLangauge">CSS</h4>
                         <div class="percent">
                          <div style="width: 90%;"></div>
                         </div>
                    </div>
                     <div class="box">
-                       <h4>Javascript</h4>
+                       <h4 property="PLangauge">Javascript</h4>
                         <div class="percent">
                           <div style="width: 80%;"></div>
                         </div>
                    </div>
                     <div class="box">
-                       <h4>SQL</h4>
+                       <h4 property="PLangauge">SQL</h4>
                         <div class="percent">
                           <div style="width: 75%;"></div>
                         </div>
                    </div>
                     <div class="box">
-                       <h4>C++</h4>
+                       <h4 property="PLangauge">C++</h4>
                         <div class="percent">
                           <div style="width: 70%;"></div>
                         </div>
                    </div>
                    <div class="box">
-                       <h4>Adobe Photoshop</h4>
+                       <h4 property="Skill">Adobe Photoshop</h4>
                         <div class="percent">
                           <div style="width: 80%;"></div>
                        </div>
@@ -177,7 +177,7 @@
                </div>
                
              <div class="about interest">
-                 <h2 class="title2">Interest</h2>
+                 <h2 class="title2" property="Interests">Interest</h2>
                  <ul>
                      <li><i class="fa fa-book" area-hidden="true"></i>Reading</li>
                     <li><i class="fa fa-pencil" area-hidden="true"></i>Writing</li>
@@ -190,3 +190,5 @@
        </div>
     </body>
 </html>
+                     
+                       
